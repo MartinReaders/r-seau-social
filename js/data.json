@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "author": "Martin",
+        "avatar": "img/Martin.png",
+        "content": "Post de Martin",
+        "image": "img/post1.jpg",
+        "reactions": {
+            "like": 10,
+            "dislike": 1,
+            "love": 25
+        },
+        "comments": [
+            {"user": "Jo", "comment": "Super:)"},
+            {"user": "Henry", "comment": "Merci!"}
+        ]
+    },
+    {
+        "id": 2,
+        "author": "Alois",
+        "avatar": "img/alois.png",
+        "content": "Salut, ceci un post de Alois",
+        "image": "",
+        "reactions": {
+            "like": 15,
+            "dislike": 1,
+            "love": 3
+        },
+        "comments": []
+    },
+    {
+        "id": 3,
+        "author": "Carl",
+        "avatar": "img/Carl.png",
+        "content": "Post de Carl",
+        "image": "img/carl.jpg",
+        "reactions": {
+            "like": 10,
+            "dislike": 1,
+            "love": 25
+        },
+        "comments": [
+            {"user": "Jo", "comment": "Super:)"},
+            {"user": "Henry", "comment": "Merci!"}
+        ]
+    }
+]
