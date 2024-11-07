@@ -1,0 +1,37 @@
+{
+    "conversations": [
+        {
+            "id": 1,
+            "contact": {
+                "name": "Martin",
+                "avatar": "img/Martin.png"
+            },
+            "messages": [
+                {
+                    "timestamp": "2024-11-05T10:30:00",
+                    "sender": "Martin",
+                    "content": "Salut, comment ça va ?"
+                },
+                {
+                    "timestamp": "2024-11-05T10:31:00",
+                    "sender": "Vous",
+                    "content": "Salut  ! Ça va bien, merci !"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "contact": {
+                "name": "Pierre",
+                "avatar": "img/alois.png"
+            },
+            "messages": [
+                {
+                    "timestamp": "2024-11-05T09:00:00",
+                    "sender": "Pierre",
+                    "content": "Prêt pour la réunion ?"
+                }
+            ]
+        }
+    ]
+}

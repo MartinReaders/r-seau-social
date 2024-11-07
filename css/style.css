@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -20,6 +21,17 @@ body{
     padding: 20px;
 }
 
+
+.block-message{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.block-message a{
+    text-decoration: none;
+    color:darkcyan;
+}
 
 
 /* Style Feed */

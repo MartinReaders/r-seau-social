@@ -1,0 +1,136 @@
+body {
+   
+    background: #e0e5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Mise en page de la messagerie */
+.messaging-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Liste des conversations */
+.conversations-list {
+    flex: 1;
+    background: #e0e5ec;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.conversation:hover {
+    background: #d1d9e6;
+}
+
+.conversation img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Fenêtre de chat */
+.chat-window {
+    flex: 2;
+    background: #e0e5ec;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.chat-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Messages */
+.chat-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message-timestamp {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Formulaire de message */
+.message-form {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.message-input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+}
+
+.send-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background: #e0e5ec;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #a3b1c6, -5px -5px 10px #ffffff;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 790px){
+
+    .messaging-container{
+
+        flex-direction: column;
+    }
+
+}
+
+
