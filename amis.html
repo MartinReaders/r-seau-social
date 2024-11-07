@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amis</title>
+    <link rel="stylesheet" href="css/amis.css">
+</head>
+<body>
+    <div class="friends-page">
+        <h1>Liste d'Amis</h1>
+        
+        <!-- Filtre de recherche -->
+        <input type="text" id="searchInput" placeholder="Rechercher un ami..." onkeyup="filterFriends()">
+
+        <!-- Liste d'amis -->
+        <ul id="friendsList" class="friends-list">
+            <li class="friend" draggable="true">
+                <img src="img/alois.png" alt="Ami 1">
+                <div class="friend-info">
+                    <strong>Alois</strong>
+                    
+                </div>
+                <button onclick="goToChat('Alois')">Message</button>
+            </li>
+            <li class="friend" draggable="true">
+                <img src="img/carl.png" alt="">
+                <div class="friend-info">
+                    <strong>Marie Curie</strong>
+                   
+                </div>
+                <button onclick="goToChat('Marie Curie')">Message</button>
+            </li>
+            <!-- Ajoutez d'autres amis ici en suivant le même format -->
+        </ul>
+    </div>
+    <script src="js/amis.js"></script>
+</body>
+</html>

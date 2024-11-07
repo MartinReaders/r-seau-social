@@ -30,7 +30,15 @@ body{
 
 .block-message a{
     text-decoration: none;
-    color:darkcyan;
+ 
+  padding: 8px 16px;
+  background: #e0e5ec;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #a3b1c6, -5px -5px 10px #ffffff;
+  cursor: pointer;
+  color: black;
+
 }
 
 
